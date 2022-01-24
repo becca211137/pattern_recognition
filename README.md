@@ -15,3 +15,5 @@ In this Lab we need to
 -    In multilayer perceptron model, use gradient descent method to solve the real data problem in MNIST(http://yann.lecun.com/exdb/mnist/)
 -    **Can not use toolbox**, implement the MLP by ourself
 -    The MNIST database of handwritten digits has a training set of 60,000 examples, and a test set of 10,000 examples.
+## Lab3 - CNN Using Matlab Toolbox
+- Use Neural Network Toolbox (Convolutional neural network) in Matlab to create CNN classification model
