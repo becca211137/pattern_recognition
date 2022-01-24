@@ -1,0 +1,21 @@
+for ix=-50:50 %% 從-15~15
+    for iy=-50:50
+        dx=0.3*(ix-1); %%間隔 0.3
+        dy=0.3*(iy-1);
+        oi=[dx dy 1]';
+        %% 丟進去net中
+        s1(1) = dx*w1(1,1) + dy*w1(1,2) + w1(1,3);
+        s1(2) = dx*w1(2,1) + dy*w1(2,2) + w1(2,3);
+        o1 = sigmf(s1,[1,0]);
+        
+        s2 = o1(1)*w2(1) + o1(2)*w2(2) + w2(3);
+        ok= sigmf(s2,[1,0]);
+        %% 看最後的值是哪一類
+        % Real output
+        if ok<0.5
+            plot(dx,dy, 'g .');
+        elseif ok>0.5
+            plot(dx,dy, 'r .');
+        end
+    end
+end
