@@ -1,4 +1,5 @@
 # Lab3 - CNN Using Matlab Toolbox
+###### tags:`Pattern Recognition`
 Use Neural Network Toolbox (Convolutional neural network) in Matlab to create CNN classification model
 
 ## Question and Report
