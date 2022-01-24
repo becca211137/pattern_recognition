@@ -63,8 +63,10 @@ How to determine the hidden node number ?
 
 How to determine the hidden node number ? 
 - 因為是跟之前的比較，所以就跟之前用的一樣。
+
 **Describe any phenomenon you watched**
 - 試過許多不同的 node 數量，發現 200-400 個 node 做出來的準確率試差不多的。
+
 **與不用 toolbox 有什麼不一樣?**
 - 除了只要把 input 跟環境設好非常方便外，toolbox 的效率很高，準確率也還不錯。
 
